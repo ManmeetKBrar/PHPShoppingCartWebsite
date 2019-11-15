@@ -1,0 +1,106 @@
+#navbar{
+	/*background-color:#007aac !important;*/
+}
+#text{
+	background-color: #70757A;
+	color: #FFFFFF;
+}
+ul.nav li{
+	margin-right: 20px;
+}
+#background-image{
+	position: relative;
+	padding: 0;
+	margin:0;
+	overflow: hidden;
+	height: 450px;
+	background-image: url(../images/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+#image-1{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background-image: url(../images/shopping-online.png);
+	background-repeat: round;
+	background-position: left bottom;
+	background-size: auto 200px;
+	top: -40px;
+	left:25px;
+}
+#image-2{
+	position: absolute;
+	width: 100%;
+	height: 430px;
+	background-image: url(../images/woman.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: auto 400px;
+	top: 10%;
+	margin-top: 2%;
+	margin-left: -45%;
+	transform: scaleX(-1);
+}
+#image-3{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/bags.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: auto 300px;
+	top: 10%;
+	
+}
+#image-4{
+	position: absolute;
+	width: 100%;
+	height: 430px;
+	background-image: url(../images/woman.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto 400px;
+	top: 10%;
+	margin-top: 2%;
+}
+#prod-images{
+	position: relative;
+	height: 200px;
+	max-width: 300px;
+	transition: transform .2s; /* Animation */
+}
+#prod-images:hover{
+	transform: scale(1.2);
+}
+.featured{
+	margin-top: 20px;
+}
+#footer{
+	margin-top: 50px;
+	color: #000000;
+}
+img.details{
+	margin: 15px 15px;
+	width: auto;
+	height: 300px;
+}
+div.featured-products h4{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.list-price{
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+
+.welcometext{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.cart-img{
+	max-width: 100px;
+	max-height: 100px;
+}
